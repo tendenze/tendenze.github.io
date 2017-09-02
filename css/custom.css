@@ -215,8 +215,8 @@ body.fluid {
 }
 @media screen and (max-width: 992px) {
   #header .navigation .nav a {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 13px;
+    padding-right: 13px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -540,6 +540,17 @@ body.fluid {
        -o-transition: all 0.25s ease 0s;
           transition: all 0.25s ease 0s;
 }
+#lineup .image.link.xnl:before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  z-index: 1;
+  width: 29px;
+  height: 35px;
+  padding: 2px;
+  background: #fff url("../img/xnl-logo.png") no-repeat center center / contain;
+}
 #lineup .more .heading {
   margin-top: 35px;
   margin-bottom: 15px;
@@ -547,6 +558,9 @@ body.fluid {
 
 .band-info.modal-content {
   background: #0e1543 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
+}
+.band-info.modal-content .xnl {
+  background: #FFF;
 }
 
 .modal-container {
